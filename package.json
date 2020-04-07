@@ -1,0 +1,46 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "Boilerplate with Bootstrap 4+, Gulp4, sass, sourcemaps, and more",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bryannagardner/Starter.git"
+  },
+  "keywords": [
+    "starter",
+    "boilerplate",
+    "html",
+    "gulp4",
+    "bootstrap4",
+    "sass"
+  ],
+  "author": "b. gardner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bryannagardner/Starter/issues"
+  },
+  "homepage": "https://github.com/bryannagardner/Starter#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@fortawesome/fontawesome-pro": "^5.13.0",
+    "bootstrap": "^4.4.1",
+    "browser-sync": "^2.26.7",
+    "cross-env": "^7.0.2",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-html-partial": "^1.0.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-js-import": "^1.0.6",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2"
+  }
+}

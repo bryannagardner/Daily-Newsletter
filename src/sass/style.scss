@@ -1,0 +1,25 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+@import "./variables";
+@import "./general";
+
+
+html {font-size: 100%;} /*16px*/
+body{
+    background-color: $floralWhite;
+    font-family: $primary-font;
+    font-weight: $regular;
+    line-height: 1.65;
+    color: #000;
+
+    padding-top: 56px;
+}
+
+.footer{
+    margin-top:3rem;
+}
+
+.navbar{
+    border-bottom: 1px solid #eee;
+}
+
