@@ -1,12 +1,13 @@
 //GOOGLE FONT IMPORT
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|Playfair+Display&display=swap');
 //FONT FAMILY
-$primary-font: 'Open Sans', sans-serif;
+$primary-font:'Playfair Dispaly', serif;
+$secondary-font: 'Open Sans', sans-serif;
 
 //COLOR SCHEME
-$middleBlue: #81D2E1;
-$deepKoamaru: #2C4875;
-$salmon: #FEA3A8;
-$sunny: #FFF376;
-$floralWhite: #FDF9ED;
+$purple: #C2C4E8;
+$purpleOverlay: #111249;
+$green: #309BA0;
+$greenOverlay:#0C4961;
+$textWhite: #ffffff;
+$textGray: #070707;

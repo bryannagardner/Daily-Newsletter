@@ -3,23 +3,24 @@
 @import "./variables";
 @import "./general";
 
+@import './newsletter/imageSide';
 
-html {font-size: 100%;} /*16px*/
+@import './newsletter/rightSide';
+
+@import './main/rightSide';
+@import './main/imageSide';
+
+html {font-size: 100%; padding: 0px;
+    margin: 0px;} /*16px*/
 body{
-    background-color: $floralWhite;
     font-family: $primary-font;
     font-weight: $regular;
     line-height: 1.65;
+    padding: 0px;
+    margin: 0px;
     color: #000;
-
-    padding-top: 56px;
-}
-
-.footer{
-    margin-top:3rem;
-}
-
-.navbar{
-    border-bottom: 1px solid #eee;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
 }
 

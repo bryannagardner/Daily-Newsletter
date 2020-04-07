@@ -1,0 +1,121 @@
+#newsletter{
+    .content-wrapper{
+        text-align: center;
+        margin-top: 40%;
+        margin-bottom: 0px;
+    
+    
+        //Logo-Section
+        .logo-wrapper{
+            padding: 0px 0px 10px 0px;
+    
+            .logo{
+                width: 100px;
+            }
+        }
+    
+        //Heading Section
+        .heading-wrapper{
+            color: #fff;
+    
+            h3{
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+    
+            p{
+                font-weight: $light;
+                letter-spacing: 0px;
+                padding-bottom: 0px;
+                margin-bottom: 0px;
+            }
+        }
+    
+        //Form Section
+        .form-wrapper{
+            width: 80%;
+            margin: 10% auto 45% auto;
+            
+            //Email Input
+            input{
+                background-color: transparent;
+                border: 1.5px solid $textWhite;
+                border-radius: 50px;
+    
+                &::placeholder{
+                    text-align: center;
+                    font-family: $secondary-font;
+                    font-weight: $semi-bold;
+                    font-size: 12px;
+                    letter-spacing: 1px;
+                }
+    
+                &:hover{
+                    background-color: #fff;
+                    border: none;
+                    border-radius: 50px;
+                    transition: ease-in-out .5s;
+                }
+                margin-bottom: 10px;
+            }
+    
+            //Submit Button
+            .submit-button{
+                background-color: $textWhite;
+                width: 100%;
+                border-radius: 50px;
+                color: #495057;
+                font-family: $secondary-font;
+                font-weight: $semi-bold;
+                font-size: 12px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                padding: 10px;
+    
+                &:hover{
+                    background-color: transparent;
+                    border: 1.5px solid $textWhite;
+                    border-radius: 50px;
+                    color: #fff;
+                    transition: ease-in-out .5s;
+                }
+            }
+    
+            //Opt-Out
+            .opt-out-wrapper{
+                padding-top: 25px;
+                .opt-out-link{
+                    font-family: $secondary-font;
+                    color: #495057;
+                    font-weight: $semi-bold;
+                    font-size: 12px;
+                    padding-bottom:0px;
+                    margin-bottom: 0px;
+                }
+                .opt-out-line{
+                    width: 25%;
+                    padding: 0px;
+                    margin: 0 auto;
+                    height: 1px;
+                    background-color: $textWhite;
+                }
+            }
+        }
+    
+        //Footer Section
+        .footer{
+           p, a{
+            color: #495057;
+            font-weight: $semi-bold;
+            font-size: 14px;
+           }
+           padding: 0px;
+           margin-bottom: 0px;
+        }
+    }
+    
+    .rightSide{
+        overflow: hidden;
+        background-color: $green;
+    }
+}
