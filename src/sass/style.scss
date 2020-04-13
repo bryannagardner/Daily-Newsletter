@@ -11,6 +11,9 @@
 
 @import './main';
 
+@import './countdown/_imageSide.scss';
+@import './countdown/_rightSide.scss';
+
 
 html {font-size: 100%; padding: 0px;
     margin: 0px;} /*16px*/
@@ -22,7 +25,5 @@ body{
     padding: 0px;
     margin: 0px;
     color: #000;
-    height: 100vh;
-    width: 100vw;
 }
 
